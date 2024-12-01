@@ -915,8 +915,11 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>SCHOOL NAME:</label>
-                                            <input type="number" name="SchoolName"       placeholder="School Name"              class="form-control"  onkeypress="return /[0-9]/i.test(event.key)" required >
+                                            <label>STUDENT SCHOOL:</label>
+                                            <select name="StudentSchool" placeholder="Student School" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Student School</option>
+                                                <option value="Salaama School">Salaama School</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -989,7 +992,7 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>TOTAL STAGES:</label>
-                                            <input type="text"name="TotalStages"  placeholder="Total Stages"  value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required >
+                                            <input type="number"name="TotalStages"  placeholder="Total Stages"  step="1" min="0" max="10000" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required >
                                         </div>
                                     </div>
                                     <div class="col">
