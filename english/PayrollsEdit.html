@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-<title>UPDATE EMPLOYEES SALARIES</title>
+<title>UPDATE PAYROLLS</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -899,7 +899,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2> UPDATE EMPLOYEES SALARIES:</h2>
+                        <h2> UPDATE PAYROLLS :</h2>
                     </div>           
                     <!-- <div class="col-lg-7 col-md-4 col-sm-12 text-right">
                         <ul class="breadcrumb justify-content-end">
@@ -922,22 +922,22 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE NAME:</label>
-                                            <input type="text" name="EmpoyeeName"  maxlength="28" placeholder="Empoyee Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>STAFF NAME:</label>
+                                            <input type="text" name="StaffName"  maxlength="28" placeholder="Staff Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE REGISTRATION DATE:</label>
-                                            <input  type="text"  name="EmpoyeeRegistrationDate" placeholder="Empoyee Registration Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
+                                            <label>STAFF REGISTRATION DATE:</label>
+                                            <input  type="text"  name="StaffRegistrationDate" placeholder="Staff Registration Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
                                         </div>
                                     </div>
                                    
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE TYPE:</label>
-                                            <select name="EmpoyeeType" placeholder="Empoyee Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Empoyee Type</option>
+                                            <label>STAFF TYPE:</label>
+                                            <select name="StaffType" placeholder="Staff Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Type</option>
                                                 <option value="Man">Man</option>
                                                 <option value="Woman">Woman</option>
                                             </select>
@@ -947,22 +947,22 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE MOBILE:</label>
-                                            <input type="text" name="EmpoyeeMobile" placeholder="Empoyee Mobile" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
+                                            <label>STAFF MOBILE:</label>
+                                            <input type="text" name="StaffMobile" placeholder="Staff Mobile" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE WHATSAPP:</label>
-                                            <input type="text" name="EmpoyeeWhatsApp" placeholder="Empoyee WhatsApp" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
+                                            <label>STAFF WHATSAPP:</label>
+                                            <input type="text" name="StaffWhatsApp" placeholder="Staff WhatsApp" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
 
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE SALARY AMOUT:</label>
+                                            <label>STAFF SALARY AMOUT:</label>
                                             <!--onkeypress="return /[0-9]/i.test(event.key)"-->
-                                            <input type="text" name="EmpoyeeSalaryAmount" placeholder="Empoyee Salary Amount" value="" class="form-control"  required>
+                                            <input type="text" name="StaffSalaryAmount" placeholder="Staff Salary Amount" value="" class="form-control"  required>
                                         </div> 
                                     </div>
                                    
@@ -971,34 +971,34 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE SCHOOL:</label>
-                                            <select name="EmpoyeeSchool" placeholder="Empoyee School" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Empoyee School</option>
+                                            <label>STAFF SCHOOL:</label>
+                                            <select name="StaffSchool" placeholder="Staff School" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff School</option>
                                                 <option value="Salaama School">Salaama School</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>DRIVER SECTION:</label>
-                                            <select name="DriverSection" placeholder="Driver Section" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Driver Section</option>
-                                               <option value="Manegment ">Manegment </option>
-                                                <option value="Finance ">Finance </option>
-                                                <option value="It ">It </option>
-                                                <option value="Teaching ">Teaching </option>
+                                            <label>STAFF SECTION:</label>
+                                            <select name="StaffSection" placeholder="Staff Section" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Section</option>
+                                                <option value="Teaching Section ">Teaching Section </option>
+                                                <option value="Managment Section ">Managment Section </option>
+                                                <option value="Staff Section ">Staff Section </option>
+                                                <option value="Vehicle Section ">Vehicle Section</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>DRIVER JOB:</label>
-                                            <select name="DriverJob" placeholder="Driver Job" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Driver Job</option>
-                                                <option value="Manager">Manager</option>
-                                                <option value="Accountant">Accountant</option>
-                                                <option value="Assistant">Assistant</option>
-                                                <option value="Watchman">Watchman</option>
+                                            <label>STAFF JOB:</label>
+                                            <select name="StaffJob" placeholder="Staff Job" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Job</option>
+                                                <option value="Teachers ">Teachers </option>
+                                                <option value="Employees ">Employees </option>
+                                                <option value="Laborers ">Laborers </option>
+                                                <option value="Drivers ">Drivers </option>
                                             </select>
                                         </div>
                                     </div>
@@ -1009,10 +1009,10 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>STUDENT NATIONALITY:</label>
-                                            <select name="StudentNationality" data-placeholder="Student Nationality" value=""  class="anyname form-control" required>
+                                            <label>STAFF NATIONALITY:</label>
+                                            <select name="StaffNationality" data-placeholder="Staff Nationality" value=""  class="anyname form-control" required>
                                                  <!-- <select data-placeholder="First Period" class="anyname form-control"> -->
-                                                    <option value="" selected="" disabled="" >Student Nationality</option>
+                                                    <option value="" selected="" disabled="" >Staff Nationality</option>
                                                     <option value="Afghanistan">Afghanistan</option>
                                                     <option value="Albania">Albania</option>
                                                     <option value="Algeria">Algeria</option>
@@ -1189,20 +1189,19 @@
 
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE ADDRESS:</label>
-                                            <input type="text" name="EmpoyeeAddress"  maxlength="28" placeholder="Empoyee Address" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>STAFF ADDRESS:</label>
+                                            <input type="text" name="StaffAddress"  maxlength="28" placeholder="Staff Address" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE EMAIL:</label>
-                                            <input type="email" name="EmpoyeeEmail"  placeholder="Empoyee Email" value="" class="form-control"  required >
+                                            <label>STAFF EMAIL:</label>
+                                            <input type="email" name="StaffEmail"  placeholder="Staff Email" value="" class="form-control"  required >
                                             <!-- <input type="text" name="EmpoyeeEmail" placeholder="Empoyee Email" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required> -->
                                         </div>
                                     </div>
                                    
                                   </div>
-                                
                                   
        
                                   
