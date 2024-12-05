@@ -898,7 +898,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2>UPDATE EMPLOYEES PAYMENTS DATA:</h2>
+                        <h2>UPDATE STAFFS PAYMENTS DATA:</h2>
                     </div>           
                     <!-- <div class="col-lg-7 col-md-4 col-sm-12 text-right">
                         <ul class="breadcrumb justify-content-end">
@@ -921,15 +921,15 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE NAME:</label>
-                                            <input type="text" name="EmpoyeeName"  maxlength="28" placeholder="Empoyee Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>STAFF NAME:</label>
+                                            <input type="text" name="StaffName"  maxlength="28" placeholder="Staff Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE TYPE:</label>
-                                            <select name="EmpoyeeType" placeholder="Empoyee Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Empoyee Type</option>
+                                            <label>STAFF TYPE:</label>
+                                            <select name="StaffType" placeholder="Staff Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Type</option>
                                                 <option value="Man">Man</option>
                                                 <option value="Woman">Woman</option>
                                             </select>
@@ -937,11 +937,15 @@
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>METHOD PAYMENT:</label>
-                                            <select name="MethodPayment" placeholder="Method Payment" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Method Payment</option>
+                                            <label>STAFF PAYMENT:</label>
+                                            <select name="StaffPayment" placeholder="Staff Payment" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Payment</option>
                                                 <option value="E-dahab">E-dahab</option>
                                                 <option value="Zaad">Zaad</option>
+                                                <option value="Somaliland Shilling">Somaliland Shilling</option>
+                                                <option value="US Dollar">US Dollar </option>
+                                                <option value="Dahabshiil Account">Dahabshiil Account</option>
+                                                <option value="Dara Salaam Account">Dara Salaam Account</option>
                                             </select>
                                                                
                                         </div>
@@ -953,16 +957,16 @@
                                     
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE SALARY DATE:</label>
-                                            <input  type="text"  name="EmpoyeeSalaryDate" placeholder="Empoyee Salary Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
+                                            <label>STAFF PAYMENT DATE:</label>
+                                            <input  type="text"  name="StaffPaymentDate" placeholder="Staff Payment Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
                                           
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE SALARY AMOUNT:</label>
+                                            <label>STAFF PAYMENT AMOUNT:</label>
                                             <!--onkeypress="return /[0-9]/i.test(event.key)"-->
-                                            <input type="text" name="EmpoyeeSalaryAmount" placeholder="Empoyee Salary Amount" value="" class="form-control"  required>
+                                            <input type="text" name="StaffPaymentAmount" placeholder="Staff Payment Amount" value="" class="form-control"  required>
                                            
                                         </div> 
                                     </div>
@@ -971,8 +975,8 @@
                                    
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE VOUCHER NUMBER:</label>
-                                            <input type="text" name="EmpoyeeVoucherNumber" placeholder="Empoyee Voucher Number" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
+                                            <label>STAFF PAYMENT VOUCHER NUMBER:</label>
+                                            <input type="text" name="StaffPaymentVoucherNumber" placeholder="Staff Payment Voucher Number" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
                                    
@@ -982,10 +986,10 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>STUDENT NATIONALITY:</label>
-                                            <select name="StudentNationality" data-placeholder="Student Nationality" value=""  class="anyname form-control" required>
+                                            <label>STAFF NATIONALITY:</label>
+                                            <select name="StaffNationality" data-placeholder="Staff Nationality" value=""  class="anyname form-control" required>
                                                  <!-- <select data-placeholder="First Period" class="anyname form-control"> -->
-                                                    <option value="" selected="" disabled="" >Student Nationality</option>
+                                                    <option value="" selected="" disabled="" >Staff Nationality</option>
                                                     <option value="Afghanistan">Afghanistan</option>
                                                     <option value="Albania">Albania</option>
                                                     <option value="Algeria">Algeria</option>
@@ -1162,16 +1166,16 @@
                                   
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE PHONE:</label>
-                                            <input type="text" name="EmpoyeePhone" placeholder="Empoyee Phone" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
+                                            <label>STAFF PHONE:</label>
+                                            <input type="text" name="StaffPhone" placeholder="Staff Phone" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
                                     
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>DRIVER FEE REMARK:</label>
-                                            <select name="DriverSalaryRemark" placeholder="Driver Salary Remark" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Driver Salary Remark</option>
+                                            <label>STAFF PAYMENT REMARK:</label>
+                                            <select name="StaffPaymentRemark" placeholder="Staff Payment Remark" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Payment Remark</option>
                                                 <option value="Full Payment">Full Payment</option>
                                                 <option value="Partially Payment">Partially Payment</option>
                                             </select>
@@ -1183,34 +1187,34 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>EMPLOYEE SCHOOL:</label>
-                                            <select name="EmpoyeeSchool" placeholder="Empoyee School" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Empoyee School</option>
+                                            <label>STAFF SCHOOL:</label>
+                                            <select name="StaffSchool" placeholder="Staff School" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff School</option>
                                                 <option value="Salaama School">Salaama School</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>DRIVER SECTION:</label>
-                                            <select name="DriverSection" placeholder="Driver Section" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Driver Section</option>
-                                               <option value="Manegment ">Manegment </option>
-                                                <option value="Finance ">Finance </option>
-                                                <option value="It ">It </option>
-                                                <option value="Teaching ">Teaching </option>
+                                            <label>STAFF SECTION:</label>
+                                            <select name="StaffSection" placeholder="Staff Section" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Section</option>
+                                               <option value="Teaching Section ">Teaching Section </option>
+                                                <option value="Managment Section ">Managment Section </option>
+                                                <option value="Staff Section ">Staff Section </option>
+                                                <option value="Vehicle Section ">Vehicle Section</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>DRIVER JOB:</label>
-                                            <select name="DriverJob" placeholder="Driver Job" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Driver Job</option>
-                                                <option value="Manager">Manager</option>
-                                                <option value="Accountant">Accountant</option>
-                                                <option value="Assistant">Assistant</option>
-                                                <option value="Watchman">Watchman</option>
+                                            <label>STAFF JOB:</label>
+                                            <select name="StaffJob" placeholder="Staff Job" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Staff Job</option>
+                                                <option value="Teachers ">Teachers </option>
+                                                <option value="Employees ">Employees </option>
+                                                <option value="Laborers ">Laborers </option>
+                                                <option value="Drivers ">Drivers </option>
                                             </select>
                                         </div>
                                     </div>
