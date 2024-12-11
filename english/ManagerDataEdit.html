@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-<title>UPDATE MANAGERS DATA</title>
+<title>UPDATE USERS DATA</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -894,7 +894,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2>UPDATE MANAGERS DATA:</h2>
+                        <h2>UPDATE USERS DATA:</h2>
                     </div>           
                     <!-- <div class="col-lg-7 col-md-4 col-sm-12 text-right">
                         <ul class="breadcrumb justify-content-end">
@@ -917,28 +917,28 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER NAME:</label>
-                                            <input type="text" name="ManagerName"   placeholder="Manager Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>USER NAME:</label>
+                                            <input type="text" name="UserName"  maxlength="28" placeholder="User Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER PASSWORD:</label>
-                                            <input type="text" name="ManagerPassword"   placeholder="Manager Password" value="" class="form-control"  required >
+                                            <label>USER PASSWORD:</label>
+                                            <input type="text" name="UserPassword"  maxlength="28" placeholder="User Password" value="" class="form-control"  required >
                                         </div>
                                     </div>
                                     <!-- <div class="col">
                                         <div class="form-group ">
-                                            <label>Manager REGISTRATION DATE:</label>
-                                            <input  type="text"  name="ManagerRegistrationDate" placeholder="Manager Registration Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
+                                            <label>USER REGISTRATION DATE:</label>
+                                            <input  type="text"  name="UserRegistrationDate" placeholder="User Registration Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
                                         </div>
                                     </div> -->
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER TYPE:</label>
-                                            <select name="ManagerType" placeholder="Manager Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager Type</option>
-                                                <option value="SA"        >SA</option>
+                                            <label>USER TYPE:</label>
+                                            <select name="UserType" placeholder="User Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >User Type</option>
+
                                                 <option value="KGSS"     >KGSS</option>
                                                 <option value="PRISS"          >PRISS</option>
                                                 <option value="PRESS"      >PRESS</option>
@@ -957,8 +957,8 @@
                                                 <option value="EMIS"        >EMIS</option>
                                             </select>
 
-                                            <!-- <select name="ManagerType" placeholder="Manager Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager Type</option>
+                                            <!-- <select name="UserType" placeholder="User Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >User Type</option>
                                                 <option value="Male">Male</option>
                                                 <option value="Female">Female</option>
                                             </select> -->
@@ -968,9 +968,9 @@
                                   <div class="row">
                                     <!-- <div class="col">
                                         <div class="form-group ">
-                                            <label>Manager SCHOOL:</label>
-                                            <select name="ManagerSchool" placeholder="Manager School" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager School</option>
+                                            <label>USER SCHOOL:</label>
+                                            <select name="UserSchool" placeholder="User School" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >User School</option>
                                                 <option value="SALAAMA SCHOOL">SALAAMA SCHOOL</option>
                                             </select>
                                         </div>
@@ -978,30 +978,53 @@
 
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER SCHOOL:</label>
-                                            <input type="text" name="ManagerSchool"   placeholder="Manager School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
-                                            <!-- <input  type="text"  name="ManagerSchool" placeholder="Manager School" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  >  -->
-                                        </div>
-                                    </div>
-
-                                    
-                                    <div class="col">
-                                        <div class="form-group ">
-                                            <label>MANAGER START DATE:</label>
-                                            <input  type="text"  name="ManagerStartDate" placeholder="Manager Start Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
+                                            <label>USER SCHOOL:</label>
+                                            <input type="text" name="UserSchool"  maxlength="28" placeholder="User School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <!-- <input  type="text"  name="UserSchool" placeholder="User School" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  >  -->
                                         </div>
                                     </div>
 
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER END DATE:</label>
-                                            <input  type="text"  name="ManagerEndDate" placeholder="Manager End Date" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  > 
+                                            <label>USER ACTIVATION:</label>
+                                            <select name="UserActivation" placeholder="User Activation" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >User Activation</option>
+                                                <option value="Activation"    >Activation</option>
+                                                <option value="Suspension"    >Suspension</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <!-- <div class="col">
                                         <div class="form-group ">
-                                            <label>Manager CLASS:</label>
-                                            <input type="text" name="ManagerClass"  maxlength="28" placeholder="Manager Class" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >                    
+                                            <label>USER PHONE:</label>
+                                            <input type="text" name="UserPhone" placeholder="User Phone" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)"   required>
+                                        </div>
+                                    </div> -->
+                                    <div class="col">
+                                        <div class="form-group ">
+                                            <label>USER PERMISSION:</label>
+                                            <select name="UserPermission" placeholder="User Permission" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >User Permission</option>
+                                                <option value="SA"    >Sa</option>
+                                                <option value="Admin"    >Admin</option>
+                                                <option value="Users"    >Users</option>
+                                                <option value="Students"    >Students</option>
+                                                <option value="Teachers"    >Teachers</option>
+                                                <option value="Employees"    >Employees</option>
+                                                <option value="Laborers"    >Laborers</option>
+                                                <option value="Drivers"    >Drivers</option>
+                                                <option value="Results"    >Results</option>
+                                                <option value="Buses"    >Buses</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    
+                                    
+                                    <!-- <div class="col">
+                                        <div class="form-group ">
+                                            <label>USER CLASS:</label>
+                                            <input type="text" name="UserClass"  maxlength="28" placeholder="User Class" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >                    
                                         </div>
                                     </div> -->
                                    
@@ -1010,32 +1033,16 @@
                                     
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER ACTIVATION:</label>
-                                            <select name="ManagerActivation" placeholder="Manager Activation" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager Activation</option>
-                                                <option value="ACTIVATION"    > ACTIVATION</option>
-                                                <option value="SUSPENSION"    >SUSPENSION</option>
-                                            </select>
+                                            <label>USER PHONE:</label>
+                                            <input type="text" name="UserPhone" placeholder="User Phone" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
-                                    <!-- <div class="col">
-                                        <div class="form-group ">
-                                            <label>Manager PHONE:</label>
-                                            <input type="text" name="ManagerPhone" placeholder="Manager Phone" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)"   required>
-                                        </div>
-                                    </div> -->
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER PERMISSION:</label>
-                                            <select name="ManagerPermission" placeholder="Manager Permission" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager Permission</option>
-                                                <option value="SA"    >SA</option>
-                                                <option value="ADMIN"    >ADMIN</option>
-                                                <option value="USER"    >USER</option>
-                                            </select>
+                                            <label>USER WHATSAPP:</label>
+                                            <input type="text" name="UserWhatsApp" placeholder="User WhatsApp" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div>
-
                                     <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>FULL NAME:</label>
@@ -1045,22 +1052,21 @@
 
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER EMAIL:</label>
-                                            <!--onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}"-->
-                                            <input type="text" name="ManagerEmail"   placeholder="Manager Email" value="" class="form-control"  required >
+                                            <label>USER EMAIL:</label>
+                                            <input type="text" name="UserEmail"  maxlength="90" placeholder="User Email" value="" class="form-control"  required >
                                         </div>
                                     </div>
 
                                     <!-- <div class="col">
                                         <div class="form-group ">
-                                            <label>Manager WHATSAPP:</label>
-                                            <input type="text" name="ManagerWhatsApp" placeholder="Manager WhatsApp" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
+                                            <label>USER WHATSAPP:</label>
+                                            <input type="text" name="UserWhatsApp" placeholder="User WhatsApp" value="" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required>
                                         </div>
                                     </div> -->
                                     <!-- <div class="col">
                                         <div class="form-group ">
-                                            <label>Manager NATIONALITY:</label>
-                                            <input type="text" name="ManagerNationality"  maxlength="28" placeholder="Manager Nationality" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >                    
+                                            <label>USER NATIONALITY:</label>
+                                            <input type="text" name="UserNationality"  maxlength="28" placeholder="User Nationality" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >                    
                                         </div>
                                     </div> -->
                                   </div>
@@ -1068,27 +1074,27 @@
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER REGION:</label>
-                                            <select name="ManagerRegion" id="subject" placeholder="Manager Region" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager Region</option>
+                                            <label>USER REGION:</label>
+                                            <select name="UserRegion" id="subject" placeholder="User Region" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >User Region</option>
                                             </select>
                                            
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER CITY:</label>
-                                            <select name="ManagerCity" id="topic" placeholder="Manager City" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager City</option>
+                                            <label>USER CITY:</label>
+                                            <select name="UserCity" id="topic" placeholder="User City" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >User City</option>
                                             </select>
                                             
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>MANAGER DISTRICT:</label>
-                                            <select name="ManagerDistrict" id="chapter" placeholder="Manager District" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Manager District</option>
+                                            <label>USER DISTRICT:</label>
+                                            <select name="UserDistrict" id="chapter" placeholder="User District" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >User District</option>
                                             </select>
                                             
                                         </div>
