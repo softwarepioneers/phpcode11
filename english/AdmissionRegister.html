@@ -1108,16 +1108,7 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>STUDENT NAME:</label>
-                                            <select name="StudentName"  placeholder="Student Name" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Student Name</option>
-                                                <option value="Ibrahim Siciid Jamac">Ibrahim Siciid Jamac</option>
-                                                <option value="Hodan Siciid Jamac">Hodan Siciid Jamac</option>
-                                                <option value="Nasir Siciid Jamac">Nasir Siciid Jamac</option>
-                                                <option value="Mustafe Siciid Jamac">Mustafe Siciid Jamac</option>
-                                                <option value="Muna Siciid Jamac">Muna Siciid Jamac</option>
-                                                <option value="Maxamuud Siciid Jamac">Maxamuud Siciid Jamac</option>
-                                                <option value="Cumar Siciid Jamac">Cumar Siciid Jamac</option>
-                                            </select>
+                                            <input type="text" name="StudentName"    maxlength="28" placeholder="Student Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
 
